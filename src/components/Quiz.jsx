@@ -5,7 +5,7 @@ import Button from "./Button"
 function Quiz(props) {
 
     const currentChoices = props.choices;
-    const imageUrl = "/images/" + props.image;
+    const imageUrl = "/images/1.jpeg";
 
     function checkAnswer(playerAnswer) {
         if ( props.answerIndex === playerAnswer) props.updateQuestion();
